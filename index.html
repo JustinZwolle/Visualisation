@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<link href="styles/styling.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b4081f8c40.js"></script>
+	<title>Visualization | Justin</title>
+</head>
+<body class="fade-in-all">
+	<div class="wrapper">
+        <header class="header">
+            <a href="https://github.com/de-sigaar/TheParkinsonProject"><i class="fab fa-github"></i></a>
+            <a href="www.linkedin.com/in/justin-zwolle-030795184"><i class="fab fa-linkedin"></i></a>
+        </header>
+		<section class="main">
+			<ul class="navigation">
+				<li>
+					<a id="aboutBtn">ABOUT ME</a>
+				</li>
+				<li>
+					<a id="uxuBtn">DESIGN</a>
+				</li>
+				<li>
+					<a id="scoBtn">DEVELOPMENT</a>
+				</li>
+			</ul>
+			<h2 id="nameTitle">VISUALIZATION</h2>
+			<h1 class="fade-in typewrite" data-period="2000" data-type='[ "Hi, I&apos;m Justin.", "I am Creative.", "I love Design." ]'>
+				<span class="wrap"></span>
+			  </h1>
+			
+		
+			<div>
+				<a class="btnIntro" id="aboutBtn">LEARN MORE</a>
+			</div>
+		</section>
+		<aside class="aside aside-2">
+			<!-- <img src="images/coderight.svg"> -->
+        </aside>
+	</div>
+	
+	<section class="course" id="introductie">
+            <h1>ABOUT ME</h1>
+<p class="introductietekst">
+	Ik ben <strong>Justin Zwolle</strong>, 22 jaar en woon in Beek en Donk, 
+	op het moment zit ik in jaar 3 van de opleiding <strong>ICT & Media Design</strong>.
+
+	Als specialisatie doe ik <strong>Open Innovation</strong>, 
+	hierbinnen doe ik een project voor FONS waar ik vorige semester ook al 
+	aan heb gewerkt. Hier ga ik dan op uitbreiden en samen met de stakeholder 
+	een product ook inzetten binnen Fontys Eindhoven.
+
+	Voordat ik <strong>ICT & Media Design</strong> ben gaan doen heb ik de MBO-opleiding 
+	<strong>Applicatie Ontwikkelaar</strong> afgerond aan het ROC ter AA in Helmond. 
+	
+	Tijdens mijn afstudeerstage destijds bij het bedrijf ‘Design2Gather’ kwam ik 
+	erachter dat mijn passie bij design ligt en minder bij Technology/back-end. 
+	
+	Ik hoop dan ook door deze opleiding/specialisaties mijn 
+	passie voor het grafische met de technische kant te kunnen 
+	combineren om mijn ideeën te realiseren met behulp 
+	van de techniek. 
+</p>
+
+	</section>
+	
+
+	<section class="course" id="webcards">
+	<div id="centercards">
+	<figure class="icon-cards">
+		<div class="icon-cards__content">
+		  <div class="icon-cards__item d-flex align-items-center justify-content-center"></div>
+		  <div class="icon-cards__item d-flex align-items-center justify-content-center"></div>
+		  <div class="icon-cards__item d-flex align-items-center justify-content-center"></div>
+		</div>
+	  </figure>
+	</div>
+	</section>
+	  
+
+			<!-- <img id="profileImage" src="images/profilepicture.png" /> -->
+    </body>
+<script>
+$("#aboutBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#introductie").offset().top
+    }, 800);
+});	
+$("#projectsBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 800);
+});
+$("#uxuBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#uxu").offset().top
+    }, 800);
+});
+$("#scoBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#sco").offset().top
+    }, 800);
+});
+$("#devBtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#dev").offset().top
+    }, 800);
+});
+
+//DEV
+function toggleContentArchitectuur() {
+  var x = document.getElementById("block_architectuur");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentBeheerbaarheid() {
+  var x = document.getElementById("block_beheerbaarheid");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentOntwikkelomgeving() {
+  var x = document.getElementById("block_ontwikkelomgeving");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentReflectieDEV() {
+  var x = document.getElementById("block_reflectieDEV");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+//PROFTAAK
+function toggleContentProjectmethodiek() {
+  var x = document.getElementById("block_projectmethodiek");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentOordeelsvorming() {
+  var x = document.getElementById("block_oordeelsvorming");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentLeervaardigheid() {
+  var x = document.getElementById("block_leervaardigheid");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentCommunicatie() {
+  var x = document.getElementById("block_communicatie");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentReflectiePT() {
+  var x = document.getElementById("block_reflectiePT");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+//SCO
+function toggleContentConceptueeldenken() {
+  var x = document.getElementById("block_conceptueeldenken");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentMediainzet() {
+  var x = document.getElementById("block_mediainzet");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentConceptexecutie() {
+  var x = document.getElementById("block_conceptexecutie");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentReflectieSCO() {
+  var x = document.getElementById("block_reflectieSCO");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+//UXU
+function toggleContentGebruikersonderzoek() {
+  var x = document.getElementById("block_gebruikersonderzoek");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentPrototypevoorleggen() {
+  var x = document.getElementById("block_prototypevoorleggen");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentInterfaceonderbouwing() {
+  var x = document.getElementById("block_interfaceonderbouwing");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function toggleContentReflectieUXU() {
+  var x = document.getElementById("block_reflectieUXU");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 90;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid rgba(0, 0, 0, 0.1);}";
+        document.body.appendChild(css);
+    };
+</script>
+</html>
